@@ -16,7 +16,7 @@ namespace ConsoleApp1
             Console.WriteLine("After FooAsync");
             t.Wait();
             Console.WriteLine("5: Thread: {0}", Thread.CurrentThread.ManagedThreadId);
-            Console.WriteLine("Done 123");
+            Console.WriteLine("Done 123 45");
         }
 
         private static async Task FooAsync()
